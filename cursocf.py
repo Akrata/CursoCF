@@ -28,6 +28,11 @@ print("Cantidad de Pesos Uruguayos a retirar = $" + total )
 grados_f = str((grados_c*9/5)+32)
 
 print(str(grados_c) + " grados C son" + grados_f + "grados F")
-""""
+"""
+lustro = 5
+año = 365
+dia = 24
+hora = 60
+minuto = 60
 
-
+print(" un lustro tiene "+ str(minuto * hora*dia*año*lustro ) + "segundos")
