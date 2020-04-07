@@ -13,9 +13,9 @@ tupla[1] = 20 ##LAS TUPLAS NO SE PUEDEN MODIFICAR SON INMUTABLES
 tupla = (1,2,3,4)
 uno, dos, tres, cuatro = tupla# a cada variable se le asigna el valor del indice en la tupla
 tupla = (1,2,3,4,5,6)
-uno,dos,tres,*cuatro = tupla[]# genera en la variable con *, una nueva lista con los que no pueden ser asignados a las variables.
+uno,dos,tres,*cuatro = tupla() # genera en la variable con *, una nueva lista con los que no pueden ser asignados a las variables
 
-uno,*dos,cinco,seis = tupla[]#de esta manera python coloca el indice 1, pasa por alto el valor con * y comienza de atras a adelante, rellenando el * con valores que sobran.
+uno,*dos,cinco,seis = tupla() #de esta manera python coloca el indice 1, pasa por alto el valor con * y comienza de atras a adelante, rellenando el * con valores que sobran.
 
 tupla = (1, 2, 3, 4, 5, 6)
 lista = [10, 20, 30, 40]
